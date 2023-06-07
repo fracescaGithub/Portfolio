@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,700&display=swap"
+    rel="stylesheet" />
+  <!-- Fontawesome Icons -->
+  <script src="https://kit.fontawesome.com/1ca15d6fa7.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="employee.png" />
+  <!-- CSS style -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- Title -->
+  <title>Francesca Bambozzi | Developer</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-elements">
+      <!-- Menu Button -->
+      <span class="menu-button" onclick="openNav()">&#9776;</span>
+      <!-- Contacts Icons -->
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/francesca-bambozzi-85b849101/" target="_blank"><i
+              class="fab fa-linkedin fa-xl"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/FrancescaBambozzi" target="_blank"><i class="fab fa-github-square fa-xl"></i></a>
+        </li>
+      </ul>
+    </div>
+    <!-- Nav Menu Overlay -->
+    <div id="navMenu" class="menu-overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="#about">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="experiences.html">Education</a>
+        <a href="experiences.html">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contacts</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-container">
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-container">
+      <img id="profile-pic" src="img/profile-pic.png" alt="profile-pic" />
+      <div class="intro-container">
+        <h1>Francesca Bambozzi<br /><span id="span">Full-Stack Developer</span></h1>
+        <p>
+          Motivated <b>Software Engineer</b> with working experience in
+          developing <b>SAP Cloud solutions</b> in the Shipping and Logistics
+          sector. <br />After a
+          <b>Bachelor's Degree in Business Administration</b>, I obtained the
+          <b>Full-Stack 'MERN' Developer Certification</b> to follow my
+          passion for designing and developing responsive
+          <b>websites and applications in JavaScript and React.</b>
+          <br /><br />
+          I am now eager to contribute to new forward-thinking projects!
+        </p>
+        <div class="about-buttons-container">
+          <a class="button" href="img/Resume_FrancescaBambozzi.pdf " download="FrancescaBambozzi-Resume">
+            download resume
+            <i class="fa-regular fa-folder-open"></i>
+          </a>
+          <br />
+          <a class="button" href="https://francescabambozzi.github.io/Github-Repo-Gallery/" target="_blank">
+            github portfolio gallery <i class="fab fa-github-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section-container">
+      <h2>Technical Skills</h2>
+      <div class="skill-list-div">
+        <ul>
+          <li>
+            <i class="fa-brands fa-html5 fa-3x"></i>
+            <p>html</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-css3-alt fa-3x"></i>
+            <p>css</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-js fa-3x"></i>
+            <p>JavaScript</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-react fa-3x"></i>
+            <p>react</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-vuejs fa-3x"></i>
+            <p>vue</p>
+          </li>
+          <li>
+            <i class="fa-brands fa-node fa-3x"></i>
+            <p>node</p>
+          </li>
+          <li>
+            <img style="width: 60px" src="img/sap.png" alt="sap" />
+            <p id="sap-skill">sap</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section-container">
+      <h2>Portfolio</h2>
+      <div class="projects-container">
+        <!-- Color Palette -->
+        <div class="card">
+          <a href="https://francescabambozzi.github.io/Color-Palette/" target="_blank">
+            <div class="card-header">
+              <img src="img/color-palette.png" alt="color-palette" />
+            </div>
+            <div class="card-body">
+              <span class="skill-tag"><strong>Skills:</strong>&nbsp;React, JSX</span>
+              <h5>Color Palette</h5>
+              <p>
+                A React web application designed for the user that can tap
+                over a selection of CSS options and add them to the favourites
+                to generate its own color palette.
+              </p>
+              <div class="links-container">
+                <a class="project-link" href="https://francescabambozzi.github.io/Color-Palette/" target="_blank">view
+                  online
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                <a class="project-link" href="https://github.com/FrancescaBambozzi/Color-Palette" target="_blank">view
+                  on github <i class="fa-brands fa-github-alt"></i></a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Guess the Word -->
+        <div class="card">
+          <a href="https://francescabambozzi.github.io/Guess-The-Word/" target="_blank">
+            <div class="card-header">
+              <img src="img/guess-the-word.png" alt="guess-the-word" />
+            </div>
+            <div class="card-body">
+              <span class="skill-tag"><strong>Skills:</strong>&nbsp;JavaScript, HTML, CSS</span>
+              <h5>Guess The Word</h5>
+              <p>
+                Players guess the word by entering one letter at a time. If
+                the player guesses all the letters correctly before they use
+                up their allotted guesses, they win!
+              </p>
+              <div class="links-container">
+                <a class="project-link" href="https://francescabambozzi.github.io/Guess-The-Word/" target="_blank">view
+                  online
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                <a class="project-link" href="https://github.com/FrancescaBambozzi/Guess-The-Word" target="_blank">view
+                  on github <i class="fa-brands fa-github-alt"></i></a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Sticky Notes -->
+        <div class="card">
+          <a href="https://francescabambozzi.github.io/Sticky-Notes/" target="_blank">
+            <div class="card-header">
+              <img src="img/sticky-notes.png" alt="sticky-notes" />
+            </div>
+            <div class="card-body">
+              <span class="skill-tag"><strong>Skills:</strong>&nbsp;React, JSX, Components</span>
+              <h5>Sticky Notes</h5>
+              <p>
+                Greenfield project creating a Sticky Notes web app. It uses
+                multiple components to build the classic sticky note UI with
+                the ability to add, edit, delete and search for notes.
+              </p>
+              <div class="links-container">
+                <a class="project-link" href="https://francescabambozzi.github.io/Sticky-Notes/" target="_blank">view
+                  online
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                <a class="project-link" href="https://github.com/FrancescaBambozzi/Sticky-Notes" target="_blank">view on
+                  github <i class="fa-brands fa-github-alt"></i></a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Potluck Guest List -->
+        <div class="card">
+          <a href="https://francescabambozzi.github.io/Potluck-Guest-List/" target="_blank">
+            <div class="card-header">
+              <img src="img/potluck-list.png" alt="potluck-list" />
+            </div>
+            <div class="card-body">
+              <span class="skill-tag"><strong>Skills:</strong>&nbsp;JavaScript, HTML, CSS</span>
+              <h5>Potluck List</h5>
+              <p>
+                A single-page website to help organize a party by adding the
+                name of the guests and randomly assigning them the food to
+                bring from a list with JavaScript.
+              </p>
+              <div class="links-container">
+                <a class="project-link" href="https://francescabambozzi.github.io/Potluck-Guest-List/"
+                  target="_blank">view online
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                <a class="project-link" href="https://github.com/FrancescaBambozzi/Potluck-Guest-List"
+                  target="_blank">view on github <i class="fa-brands fa-github-alt"></i></a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Unplugged Retreat -->
+        <div class="card">
+          <a href="https://francescabambozzi.github.io/Unplugged-Retreat/" target="_blank">
+            <div class="card-header">
+              <img src="img/unplugged-screenshot.png" alt="unplugged-retreat" />
+            </div>
+            <div class="card-body">
+              <span class="skill-tag"><strong>Skills:</strong>&nbsp;HTML, CSS, Flexbox</span>
+              <h5>Unplugged Retreat</h5>
+              <p>
+                A multi-page responsive website coded with Flexbox. This
+                versatile design has several sections, including a Cards
+                design pattern, that can be repurposed for different sites.
+              </p>
+              <div class="links-container">
+                <a class="project-link" href="https://francescabambozzi.github.io/Unplugged-Retreat/"
+                  target="_blank">view online
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                <a class="project-link" href="https://github.com/FrancescaBambozzi/Unplugged-Retreat"
+                  target="_blank">view on github <i class="fa-brands fa-github-alt"></i></a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS SECTION -->
+    <section id="contact" class="section-container">
+      <h2>Get in touch!</h2>
+      <div class="contacts-container">
+        <div class="contacts">
+          <ul>
+            <li>
+              <a href="tel:+393485733231"><i class="fa-solid fa-mobile-retro"></i>+393485733231</a>
+            </li>
+            <li>
+              <a href="mailto:bambozzif@gmail.com"><i class="fas fa-envelope fa-xm"></i>bambozzif@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts icons">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/francesca-bambozzi-85b849101/" target="_blank"><i
+                  class="fab fa-linkedin fa-xl"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/FrancescaBambozzi" target="_blank"><i
+                  class="fab fa-github-square fa-xl"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <p>Always ahead.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

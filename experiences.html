@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,700&display=swap"
+    rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="employee.png" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- Fontawesome Icons -->
+  <script src="https://kit.fontawesome.com/1ca15d6fa7.js" crossorigin="anonymous"></script>
+  <!-- Title -->
+  <title>Francesca Bambozzi | Developer</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-elements">
+      <!-- Menu Button -->
+      <span class="menu-button" onclick="openNav()">&#9776;</span>
+      <!-- Contacts Icons -->
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/francesca-bambozzi-85b849101/" target="_blank"><i
+              class="fab fa-linkedin fa-xl"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/FrancescaBambozzi" target="_blank"><i class="fab fa-github-square fa-xl"></i></a>
+        </li>
+      </ul>
+    </div>
+    <!-- Nav Menu Overlay -->
+    <div id="navMenu" class="menu-overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html#about">About me</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-container" class="main-experiences">
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section-container">
+      <h2><i class="fa-solid fa-graduation-cap experiences-icon"></i>Education</h2>
+
+      <div class="education-div">
+        <span class="year">2019</span>
+        <h4>
+          <a class="workPlace" href="https://ubiqum.com/" target="_blank">Ubiqum Code Academy</a>
+        </h4>
+        <p class="workPosition">Full-Stack Web Developer Certification</p>
+        <ul>
+          <li class="work-points">
+            'MERN' technologies - MongoDB | Express | React | Node
+          </li>
+          <li class="work-points">Vue.js | Redux JS frameworks</li>
+          <li class="work-points">
+            Integration of REST & CRUD API’s in a web application
+          </li>
+          <li class="work-points">
+            Write clean, modular and efficient code, following the standards
+            of good practices and refactoring it for optimisation
+          </li>
+          <li class="work-points">
+            Agile processes to plan, manage and track the software developer
+            progress
+          </li>
+        </ul>
+      </div>
+      <div class="education-div">
+        <span class="year">2013-2016</span>
+        <h4>
+          <a class="workPlace" href="https://www.buckingham.ac.uk/" target="_blank">The University of Buckingham</a>
+        </h4>
+        <p class="workPosition">
+          Bachelor's of Science in Business Administration (BSc), Management
+          Specialization
+        </p>
+        <p>
+          Thesis Final Project: Business Plan for a digital Start-Up -
+          <em>"The online journal for children to discover, learn and have
+            fun!"</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section-container">
+      <h2><i class="fa-solid fa-laptop-code experiences-icon"></i>Experience</h2>
+
+      <div id="first" class="experience-div">
+        <span class="year">2019-2022</span>
+        <h4>
+          <a class="workPlace" href="https://www.contax.com/" target="_blank">CONTAX Inc.</a>
+        </h4>
+        <p class="workPosition">Software Engineer | Utrecht, NL</p>
+        <p class="date">December - March</p>
+        <div class="workDescription">
+          <p>
+            Software Engineer responsible for the Front-End development of a
+            multi-carrier sources SAP Cloud analytics solution.
+          </p>
+          <ul>
+            <li class="work-points">
+              Building HTML5 modules in SAP Web-IDE (BAS)
+            </li>
+            <li class="work-points">
+              Implementation of new features based on customers’ requests
+              using SAPUI5 Framework - Fiori Elements
+            </li>
+            <li class="work-points">SAP BTP - Cloud Foundry Environment</li>
+            <li class="work-points">
+              SAP Fiori Launchpad tiles configuration
+            </li>
+            <li class="work-points">Software documentation updating</li>
+            <li class="work-points">SCRUM Methodology</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="second" class="experience-div">
+        <span class="year">2018</span>
+        <h4>
+          <a class="workPlace" href="https://www.fmg.eu/en/" target="_blank">Frittelli Maritime Group</a>
+        </h4>
+        <p class="workPosition">Customer Service Operator | Ancona, IT</p>
+        <p class="date">April - August</p>
+        <div class="workDescription">
+          <p>
+            My job was to assist clients in person, by phone and online in
+            planning and booking their trip to Albania and Greece. I had to
+            answer customer questions, make travel suggestions and sell
+            tickets. Moreover, I was at the Front Desk dealing with passport
+            check-in and goods customs controls.
+          </p>
+        </div>
+      </div>
+
+      <div id="third" class="experience-div">
+        <span class="year">2015</span>
+        <h4>
+          <a class="workPlace" href="http://ccibaires.com.ar/" target="_blank">Italian Chamber of Commerce</a>
+        </h4>
+        <p class="workPosition">
+          Project Management Intern | Buonos Aires, AR
+        </p>
+        <p class="date">July - September</p>
+        <div class="workDescription">
+          <p>
+            I was in charge of managing the relationship with the Chamber's
+            commercial partners in order to facilitate bilateral trade between
+            Italy and Argentina. I learnt how to plan out all the different
+            stages in organizing B2B meetings and promotional events and I
+            deepened my ability in translating documents from-to
+            Spanish/Italian.
+          </p>
+        </div>
+      </div>
+
+      <div id="fourth" class="experience-div">
+        <span class="year">2014</span>
+        <h4>
+          <a class="workPlace" href="https://www.bagelfactory.co.uk/" target="_blank">Bagel Factory</a>
+        </h4>
+        <p class="workPosition">Marketing Department Intern | London, UK</p>
+        <p class="date">June - August</p>
+        <div class="workDescription">
+          <p>
+            My main activity was to formulate a new marketing strategy aimed
+            at the promotion of the product through social medias by directly
+            collecting and analyzing market data.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <p>Always ahead.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
